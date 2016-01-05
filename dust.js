@@ -11,7 +11,7 @@ module.exports = function(obj) {
     json: function (chunk, context, bodies, params) {
       let options = {};
       if (params.space) {
-        options.space = Number(params.space);
+        options.space = Number(params.space) || 2;
       }
       return chunk.map((inner_chunk)=> {
         obj.write(options, (err,doc)=> {
