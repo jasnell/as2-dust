@@ -1,0 +1,19 @@
+{
+  "name": "as2-dust",
+  "version": "1.0.0",
+  "description": "Activity Streams 2.0 Dust Context Helper",
+  "main": "dust.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasnell/as2-dust.git"
+  },
+  "keywords": [
+    "Activity Streams 2.0",
+    "Dust"
+  ],
+  "author": "James M Snell <jasnell@gmail.com>",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "activitystrea.ms": ">=0.13.0"
+  }
+}
